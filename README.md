@@ -6,6 +6,8 @@ In order to understand all this, we would like you to complete the following cha
 
 There are no time limitations but we suggest you dont spend more then a few hours on it. We are not looking for a bullet-proof solution but it has to be elegant, clean, maintenable and intuitive approach.
 
+Add a bit of styling and use correct and well organized HTML code, remember our requirements include fluent use of HTML/CSS.
+
 ## Challenge Description
 
 ### The API
@@ -41,6 +43,7 @@ The solution has to work in Chrome's last version, don't worry about the others.
 
 - Legible, understandable and maintenable code
 - A wise balance between complexity of the problem and complexity of the solution
+- A bit of styling in the proposition is welcome
 
 
 ## Submission Instructions
