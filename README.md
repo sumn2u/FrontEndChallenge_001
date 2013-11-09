@@ -42,8 +42,9 @@ The solution has to work in Chrome's last version, don't worry about the others.
 ### What we assess
 
 - Legible, understandable and maintenable code
+- Correct and well organized HTML code
 - A wise balance between complexity of the problem and complexity of the solution
-- A bit of styling in the proposition is welcome
+- A bit of styling in the visualization is welcome
 
 
 ## Submission Instructions
