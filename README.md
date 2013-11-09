@@ -4,7 +4,7 @@ For us, it is not all about the CV, titles and portfolio. The most important for
 
 In order to understand all this, we would like you to complete the following challenge. This is a simplified case which illustrates the kinds of situations we have to deal with on a daily basis.
 
-There are no time limitations but we suggest you dont spend more then a few hours on it. We are not looking for a bullet-proof solution we just want to see a first prototype/approach
+There are no time limitations but we suggest you dont spend more then a few hours on it. We are not looking for a bullet-proof solution but it has to be elegant, clean, maintenable and intuitive approach.
 
 ## Challenge Description
 
@@ -35,7 +35,7 @@ Only one _html_ page (use as many JS and CSS files as you want).
 
 You can use any frontend library you like, no limitation on quantity and size.
 
-The solution has to work in Chromes last version, don't worry about the others.
+The solution has to work in Chrome's last version, don't worry about the others.
 
 ### What we assess
 
