@@ -42,10 +42,10 @@ The solution has to work in Chrome's last version, don't worry about the others.
 ### What we assess
 
 - Legible, understandable and maintenable code
-- Correct and well organized HTML code
-- A wise balance between complexity of the problem and complexity of the solution
-- A bit of styling in the visualization is welcome
-
+- Correct and well organized JS/HTML/CSS code
+- A bit of styling in the visualization is welcome so you can show us your CSS skills
+- Separation between _logic_ and _content_
+- The use of new tools, techniques and/or frameworks
 
 ## Submission Instructions
 
