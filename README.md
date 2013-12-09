@@ -4,7 +4,7 @@ For us, it is not all about the CV, titles and portfolio. The most important for
 
 In order to understand all this, we would like you to complete the following challenge. This is a simplified case which illustrates the kinds of situations we have to deal with on a daily basis.
 
-There are no time limitations but we suggest you dont spend more then a few hours on it. We are not looking for a bullet-proof solution but it has to be elegant, clean, maintenable and intuitive approach.
+There are no time limitations but we suggest you dont spend more than a few hours on it. We are not looking for a bullet-proof solution but it has to be elegant, clean, maintenable and intuitive approach.
 
 Add a bit of styling and use correct and well organized HTML code, remember our requirements include fluent use of HTML/CSS.
 
@@ -17,7 +17,7 @@ Check out a simplified version of our [Surveys API](http://docs.surveysmock.apia
 Here you can find examples of how to call each of the methods, for example:
 
     curl --include  "http://surveysmock.apiary.io/api/surveys/001"
-    
+
 _This is an API mockup so the methods will always return in the same way no matter which values you put in the request_
 
 ### The functionality workflow
