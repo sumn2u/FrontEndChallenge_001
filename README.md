@@ -45,7 +45,7 @@ The solution has to work in Chrome's last version, don't worry about the others.
 - Correct and well organized JS/HTML/CSS code
 - A bit of styling in the visualization is welcome so you can show us your CSS skills
 - Separation between _logic_ and _content_
-- The use of new tools, techniques and/or frameworks
+- The use of the appropriate tools, techniques and/or frameworks
 
 ## Submission Instructions
 
