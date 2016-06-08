@@ -35,8 +35,6 @@ _This is an API mockup so the methods will always return in the same way no matt
 
 Everything has to work in the browser without any backend support (other than the API we provide).
 
-Only one _html_ page (use as many JS and CSS files as you want).
-
 You can use any frontend library you like, no limitation on quantity and size.
 
 The solution has to work in Chrome's last version, don't worry about the others.
