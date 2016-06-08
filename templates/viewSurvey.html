@@ -1,0 +1,16 @@
+<h3>{{currentSurvey.title}}</h3><!--Survey title-->
+<h5>{{currentSurvey.tagline}}</h5><!--Survey tagline-->
+<ul>
+  <li ng-repeat="question in currentSurvey.questions">
+    <a href="#">{{question.title}}</a>
+    <form>
+      <ul class="list-unstyled">
+        <li ng-repeat="option in question.options"><input type="radio" name="{{question.id}}" ng-click="selectedAnswer(question.id, option)" >{{option}}</li>
+      </ul>
+    </form>
+    <hr>
+  </li>
+</ul><!--clsoing of questions form-->
+<div ng-if="isloaded">
+<button type="button" name="button" class="btn" ng-click="submitSurvey()">Submit</button>
+</div>
