@@ -16,7 +16,9 @@ Check out a simplified version of our [Surveys API](http://docs.surveysmock.apia
 
 Here you can find examples of how to call each of the methods, for example:
 
-    curl --include 'http://private-anon-2442cb0cb-surveysmock.apiary-mock.com/api/surveys/001'
+    curl --include "http://private-anon-114a6be78-surveysmock.apiary-mock.com/api/surveys"
+    
+Use always the _Mock Server_ version URLs.
 
 _This is an API mockup so the methods will always return in the same way no matter which values you put in the request_
 
