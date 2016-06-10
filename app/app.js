@@ -42,7 +42,7 @@ app.filter('searchFor', function(){
 });
 // get list of survays
 app.controller('survey-list',function($scope,$state,$http,$filter, $stateParams){
-	$scope.surveylist = {};
+	$scope.surveylist = [];
 	$scope.pageSize = 5;// se
 	$scope.currentPage = 1;
 	$http.get("http://private-anon-0dbbf9a9f-surveysmock.apiary-mock.com/api/surveys").success(function(response){
