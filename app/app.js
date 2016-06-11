@@ -51,7 +51,6 @@ app.controller('survey-list',function($scope,$state,$http,$filter, $stateParams)
   		$scope.sortReverse  = false;  // set the default sort order
   		$scope.searchTitle   = '';     // set the default search/filter term
 			$scope.surveylist = response.surveys;
-			console.log("search for the books !!", response);
 			$scope.surveylistSearch = $scope.surveylist;
 			$scope.$watch('searchSurvey', function(val){
 				$scope.surveylist = $filter('searchFor')($scope.surveylistSearch, val);

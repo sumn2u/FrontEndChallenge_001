@@ -2,11 +2,6 @@
 	<h2>List of Surveys  <span style="font-size: 16px;"><input type="text" ng-model="searchSurvey" placeholder="Search for Survey" style="height: 40px; margin: 0px 31px; padding: 0px 15px;width: 300px;"></span></h2><hr>
 
 	<div class="row">
-	<div class="alert alert-info">
-	<p>Sort Type: {{ sortType }}</p>
-	<p>Sort Reverse:{{ sortReverse }}</p>
-	<p>Search Query:{{searchSurvey}}</p>
-</div>
 		 <div class="col-md-12">
 			<div class="well well-sm">
 				<div class="table-responsive">
@@ -14,18 +9,14 @@
 						<thead>
 						<tr>
 							<th>
-								<a href="#" ng-click="sortType = 'title'; sortReverse = !sortReverse">
+								<a href="#">
 								   Title
-								 <span ng-show="sortType == 'title' && !sortReverse" class="fa fa-caret-down"></span>
-								 <span ng-show="sortType == 'title' && sortReverse" class="fa fa-caret-up"></span>
 							 </a>
 							</th>
 
 							<th>
-								<a href="#" ng-click="sortType = 'tagline'; sortReverse = !sortReverse">
+								<a href="#">
 									 Tagline
-								 <span ng-show="sortType == 'tagline' && !sortReverse" class="fa fa-caret-down"></span>
-								 <span ng-show="sortType == 'tagline' && sortReverse" class="fa fa-caret-up"></span>
 							 </a>
 
 							</th>
@@ -38,7 +29,6 @@
 							<td>{{survey.title}}</td>
 							<td>{{survey.tagline}}</td>
 							<td><button type="button" class="btn btn-primary" ng-click="viewSurvey(survey.id)">View</button></td>
-
 						</tr>
 					</tbody>
 					</table>
